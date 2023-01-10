@@ -3,8 +3,8 @@ This script will keep your machine awake throughout the day.
 Very useful when running programs for an extended period of time and don't want your screen to turn off or lose connection to server.
 
 ## Parameters
-* `$day_start`: Keep machine awake starting from this time
-* `$day_end`: Do not keep machine awake after this time
+* `$work_start`: Keep machine awake starting from this time
+* `$work_end`: Do not keep machine awake after this time
 * `$interval`: Seconds between each toggle to prevent machine locks
 
 ## Errors
