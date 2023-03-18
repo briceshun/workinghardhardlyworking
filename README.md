@@ -8,8 +8,13 @@ Very useful when running programs for an extended period of time and don't want 
 * `$interval`: Seconds between each toggle to prevent machine locks
 
 ## Errors
-Script may not run if execution policy on your machine is set to `AllSigned`.
+Saved script may not run if execution policy on your machine is set to `AllSigned`.
 
+### Solution 1: Run Unsaved File
+Copy and paste the code in a new PowerShell ISE instance (search "PowerShell ISE (x86)" in your start menu).
+Click "Run Script" (the green "play" button). *Do not save before running.*
+
+### Solution 2: Changing Execution Policy
 You can check this by running the following script:
 ```PS
 Get-ExecutionPolicy -List
