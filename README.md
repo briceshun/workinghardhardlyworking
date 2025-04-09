@@ -14,11 +14,13 @@ Very useful when running programs for an extended period of time and don't want 
 ### Windows -> `worker.ps1`
 
 Copy and paste the code into a new PowerShell ISE instance (search "PowerShell ISE (x86)" in your start menu).
+
 Click "Run Script" (the green "play" button). *Do not save before running.*
 
 ### MacOS -> `worker.scpt`
 
 Copy and paste the code into a new Script Editor instance.
+
 Click "Run Script" (the green "play" button). *Do not save before running.*
 
 ## Disclaimer
